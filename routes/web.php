@@ -15,7 +15,7 @@ use App\Http\Controllers\Frontend\PageController;
 |
 */
 
-Route::group(['middleware','settings'], function() {
+Route::group(['middleware','sitesetting'], function() {
     Route::get('/', [PageHomeController::class, 'anasayfa'])->name('anasayfa');
 
     Route::get('/urunler', [PageController::class, 'urunler'])->name('urunler');
