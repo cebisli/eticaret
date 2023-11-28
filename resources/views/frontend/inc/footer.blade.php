@@ -16,13 +16,14 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-6">
           <div class="block-5 mb-5">
             <h3 class="footer-heading mb-4">İletişim</h3>
             <ul class="list-unstyled">
-              <li class="address">Adres Bilgileri</li>
-              <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
-              <li class="email">emailaddress@domain.com</li>
+              <li class="address">{{ $settings['adres'] }}</li>
+              <li class="phone"><a href="#">{{ $settings['phone'] }}</a></li>
+              <li class="email">{{ $settings['email'] }}</li>
             </ul>
           </div>
         </div>
@@ -39,3 +40,4 @@
       </div>
     </div>
   </footer>
+
