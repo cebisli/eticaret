@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Frontend;
+
 use App\Models\Slider;
 use App\Models\Category;
 use App\Models\About;

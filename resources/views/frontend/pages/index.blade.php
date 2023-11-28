@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    {{ dd($settings) }}
+
     <div class="site-section site-blocks-2">
       <div class="container">
         <div class="row">
